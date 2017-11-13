@@ -189,5 +189,5 @@ tb_cb = keras.callbacks.TensorBoard(log_dir="./logs",write_images=1,histogram_fr
 cbks=[tb_cb]
 
 model_history = model.fit(X_train,y_train,validation_split=0.2,shuffle=True,epochs=5,callbacks=cbks)
-model.save('model_123.h5')
+model.save('model.h5')
 print(model.summary())
