@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Sep 29 16:33:09 2017
-
-@author: hasee
-"""
 
 import csv
 import cv2
